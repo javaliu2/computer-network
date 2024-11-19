@@ -22,7 +22,7 @@
 
    下图中Switch0的Fa0/1和Fa0/4属于同一个VLAN 2，Switch1的Fa0/1和Fa0/4属于同一个VLAN 3，这四个端口都是access口，试验结果PC0和PC1能互通，请问属于不同VLAN中的PC0和PC1为什么也能通？
 
-   ![conf-26](/home/xs/basic_skill/computer-network/imgs/conf-26.png)
+   ![conf-26](/imgs/conf-26.png)
 
    答：交换机转发的报文是EthernetII，不带有tag标记，又由于PC0和PC1是同一个子网，存在物理连接关系，因此可以ping通。
 
